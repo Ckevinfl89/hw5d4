@@ -29,7 +29,17 @@ SELECT *
 FROM film f WHERE title LIKE 'D%'
 ORDER BY  title DESC;
 
-
+-- 253|Drifter Commandments   |A Epic Reflection 
+-- 252|Dream Pickup           |A Epic Display of 
+-- 251|Dragonfly Strangers    |A Boring Documenta
+-- 250|Dragon Squad           |A Taut Reflection 
+--1001|DRAGON                 |BALL              
+-- 249|Dracula Crystal        |A Thrilling Reflec
+-- 248|Dozen Lion             |A Taut Drama of a 
+-- 247|Downhill Enough        |A Emotional Tale o
+-- 246|Doubtfire Labyrinth    |A Intrepid Panoram
+-- 245|Double Wrath           |A Thoughtful Yarn 
+-- 244|Dorado Notting         |A Action-Packed Ta
 
 --
 --2. Create a Stored Function that will take in a category_id and return the number of
@@ -52,3 +62,8 @@ END;
 $$;
 
 SELECT get_film_count(1);
+
+--
+--get_film_count|
+--------------+
+--            64|
